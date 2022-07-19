@@ -44,3 +44,17 @@ JOIN armory_item AS i
 GROUP BY c.character_id
 )
 """
+
+create_character_table = """
+CREATE TABLE IF NOT EXISTS characters (
+    character_id SERIAL NOT NULL,
+    name VARCHAR(30) NOT NULL,
+    level INT NOT NULL,
+    exp INT NOT NULL,
+    hp INT NOT NULL,
+    strength INT NOT NULL,
+    intelligence INT NOT NULL,
+    dexterity INT NOT NULL,
+    wisdom INT NOT NULL
+)
+"""
