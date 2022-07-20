@@ -7,7 +7,7 @@ from pprint import pprint
 dbname = 'pbxkhceu'
 user = 'pbxkhceu'
 host = 'castor.db.elephantsql.com'
-password = 'nTxHJyQCN347esaR4eC94WOnKz3gnQNW'
+password = ''
 
 
 def connect_to_pg():
